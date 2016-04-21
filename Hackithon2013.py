@@ -1,5 +1,5 @@
 #Imports/Initializationv
-import os, time, sys, random, urllib
+import os, time, sys, random
 def typer(what_you_want_to_type):
   for letter in what_you_want_to_type:
     sys.stdout.write(letter)
@@ -158,8 +158,6 @@ Type "end" once you are done inputting all of your words'''
   	  time.sleep(3)
   	  secrets=secrets+1
     if data == word:
-      if data == "Butt":
-        urllib.urlretrieve("http://polederboulder.files.wordpress.com/2013/04/hot-ass-sexy-butt-pics-20.jpg","butt.jpg")
       if data == "You win!":
         points = 999999998
       points = points +1
